@@ -7,11 +7,6 @@ let socket = io();
            to: 'Jen@example.com',
            subject: 'Hey. This is BigO'
         });
-        
-        socket.emit('createMessage', {
-           From: 'Jen@example.com',
-           text: 'Hey. This is BigO!'
-        });
     });
     
 //receive from server
