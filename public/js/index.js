@@ -10,9 +10,9 @@ let socket = io();
     });
     
 //receive from server
-socket.on('newEmail', function(email){
-   console.log('New email', email); 
-});
+//socket.on('newEmail', function(email){
+//   console.log('New email', email); 
+//});
 
 socket.on('newMessage', function(message){
    console.log('New Message', message); 
